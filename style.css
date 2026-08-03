@@ -19,7 +19,7 @@ body{
 /* Header */
 
 header{
-    background:#003366;
+    background:rgba(0,0,0,0.8);
     color:white;
     display:flex;
     justify-content:space-between;
