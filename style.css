@@ -11,9 +11,10 @@
 }
 
 body{
-    background-color:#f5f5f5;
-    color:#333;
+    background-color:linear-gradient(to bottom, #5c5c5c, #1a1a1a, #000000);
+    color:white;
     line-height:1.6;
+    font-family:'Poppins' , sans-serif;
 }
 
 /* Header */
