@@ -96,12 +96,14 @@ nav a:hover{
     border-radius: 40px;
     display:inline-block;
     font-size:18px;
+    box-shadow:0 8px 20px rgba(109,139,116,.25);
 
 }
 
 .btn:hover{
     background:#4F6A55;
-    transform:scale(1.05);
+    transform:translateY(-3px);
+    box-shadow:0 12px 24px rgba(79,106,85,.35);
 }
 
 
