@@ -20,7 +20,7 @@ body{
 /* Header */
 
 header{
-    background:#20242a;
+    background:#5f7161;
     color:white;
     display:flex;
     justify-content:space-between;
@@ -43,17 +43,17 @@ nav a{
     text-decoration:none;
     margin-left:25px;
     font-weight:bold;
-    transition:0.3s;
+    transition:.3s;
 }
 
 nav a:hover{
-    color:#FFD700;
+    color:#D0E0D0;
 }
 
 /* Hero Section */
 
 .hero{
-    height:85vh;
+    height:90vh;
     background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url(images/apartment.jpg);
     background-size:cover;
     background-position:center;
@@ -62,7 +62,7 @@ nav a:hover{
     justify-content:center;
     align-items:center;
     text-align:center;
-    color:grey;
+    color:white;
     padding:20px;
 }
 
