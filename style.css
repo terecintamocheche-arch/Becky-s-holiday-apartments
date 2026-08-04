@@ -187,3 +187,176 @@ footer{
     line-height:1.8;
     margin-bottom:20px;
 }
+/* ==================================== */
+/* COMING SOON SECTION */
+/* ==================================== */
+
+.coming-soon{
+
+    width:45%;
+    height:520px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px;
+
+    background:linear-gradient(
+    135deg,
+    #fafafa,
+    #ececec,
+    #d8d8d8,
+    #bfbfbf);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+/* Decorative circles */
+
+.coming-soon::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:250px;
+
+    height:250px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.35);
+
+    top:-80px;
+
+    right:-80px;
+
+}
+
+.coming-soon::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.25);
+
+    bottom:-60px;
+
+    left:-60px;
+
+}
+
+/* Construction Icon */
+
+.construction-icon{
+
+    width:110px;
+
+    height:110px;
+
+    border-radius:50%;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:50px;
+
+    margin-bottom:30px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    animation:float 3s ease-in-out infinite;
+
+}
+
+/* Heading */
+
+.coming-soon h2{
+
+    color:#333;
+
+    font-size:42px;
+
+    letter-spacing:4px;
+
+    margin-bottom:20px;
+
+}
+
+/* Paragraph */
+
+.coming-soon p{
+
+    color:#555;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:20px;
+
+}
+
+/* Opening Soon Badge */
+
+.coming-soon span{
+
+    background:#555;
+
+    color:white;
+
+    padding:12px 30px;
+
+    border-radius:30px;
+
+    letter-spacing:2px;
+
+    font-size:15px;
+
+}
+
+/* Floating animation */
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
