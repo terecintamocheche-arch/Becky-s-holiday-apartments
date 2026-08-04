@@ -54,7 +54,7 @@ nav a:hover{
 
 .hero{
     height:90vh;
-    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url(images/apartment.jpg);
+    background:linear-gradient(135deg,#6d8b74,#a4bea5),url(images/apartment.jpg);
     background-size:cover;
     background-position:center;
     display:flex;
@@ -135,17 +135,17 @@ nav a:hover{
     justify-content:center;
     flex-wrap:wrap;
     gap:25px;
+
 }
 
 .card{
-    background:#5c5c5c;
+    background:white;
     width:260px;
     padding:30px;
-    border-radius:15px;
+    border-radius:20px;
     text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
     transition:.3s;
-    color:beige;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     
