@@ -86,21 +86,21 @@ nav a:hover{
 
 .btn{
     margin-top:30px;
-    background:#d4af37;
-    color:black;
+    background:#6D8B74;
+    color:white;
     text-decoration:none;
     padding:15px 35px;
     border-radius:30px;
     font-weight:bold;
     transition:.3s;
-    border-radius: 30px;
+    border-radius: 40px;
     display:inline-block;
     font-size:18px;
 
 }
 
 .btn:hover{
-    background:#d9d9d9;
+    background:#4F6A55;
     transform:scale(1.05);
 }
 
@@ -166,22 +166,22 @@ footer{
     width:85%;
     max-width:1000px;
     margin:40px auto;
-    background:rgba(255,255,255,0.08);
+    background:#EDF3ED;
     backdrop-filter:blur(8px);
     padding:30px;
-    border-radius:20px;
+    border-radius:25px;
     border:1px solid rgba(255,255,255,0.2);
-    box-shadow:0 8px 20px rgba(0,0,0,0.5);
-    color:#000;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    color:#40513B;
 }
 .hero{
-    height:85vh;
+    height:90vh;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
     color:white;
-    background:#824aa5;
+    background:linear-gradient(135deg,#6D8B74,#A4BEA5);
 }
 .about p{
     font-size:18px;
