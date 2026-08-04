@@ -170,4 +170,12 @@ footer{
     box-shadow:0 8px 20px rgba(0,0,0,0.5);
     color:#000;
 }
-
+.hero{
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    background:#4a6fa5;
+}
