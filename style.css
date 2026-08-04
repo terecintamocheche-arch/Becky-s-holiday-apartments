@@ -14,7 +14,7 @@ body{
     background-color:linear-gradient(to bottom, #5c5c5c, #1a1a1a, #000000);
     color:white;
     line-height:1.6;
-    font-family:'Poppins' , sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 
 /* Header */
@@ -68,6 +68,7 @@ nav a:hover{
     font-size:60px;
     margin-bottom:20px;
     font-family: 'Great Vibes' , cursive;
+    color:#000;
 }
 
 .hero p{
@@ -95,10 +96,11 @@ nav a:hover{
 .about{
     padding:70px;
     text-align:center;
+    color:#000;
 }
 
 .about h2{
-    color:#003366;
+    color: #e5e5e5;
     margin-bottom:20px;
 }
 
@@ -110,7 +112,7 @@ nav a:hover{
 
 .features h2{
     text-align:center;
-    color:#003366;
+    color:#E5E5E5;
     margin-bottom:40px;
 }
 
@@ -122,14 +124,19 @@ nav a:hover{
 }
 
 .card{
-    background:white;
+    background:#5c5c5c;
     width:260px;
     padding:30px;
     border-radius:15px;
     text-align:center;
     box-shadow:0 5px 15px rgba(0,0,0,.15);
     transition:.3s;
+    color:beige;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
 }
+
 
 .card:hover{
     transform:translateY(-10px);
@@ -151,5 +158,6 @@ footer{
     border-radius:20px;
     border:1px solid rgba(255,255,255,0.2);
     box-shadow:0 8px 20px rgba(0,0,0,0.5);
+    color:#000;
 }
 
