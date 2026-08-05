@@ -44,47 +44,46 @@
 
         <h2>Reservation Form</h2>
 
-        <form>
+        <form id="bookingForm">
 
-            <label>Full Name</label>
-            <input type="text" placeholder="Enter your full name" required>
+    <label>Full Name</label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
 
-            <label>Email Address</label>
-            <input type="email" placeholder="Enter your email" required>
+    <label>Email Address</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
 
-            <label>Phone Number</label>
-            <input type="tel" placeholder="Enter your phone number" required>
+    <label>Phone Number</label>
+    <input type="tel" id="phone" placeholder="Enter your phone number" required>
 
-            <label>Select Apartment</label>
+    <label>Select Apartment</label>
 
-            <select required>
-<option>Select Apartment</option>
+    <select id="apartment" required>
+        <option value="">Select Apartment</option>
+        <option value="Three-Bedroom Apartment - Nyali">Three-Bedroom Apartment - Nyali</option>
+        <option value="Coming Soon - Buxton Apartment">Coming Soon - Buxton Apartment</option>
+    </select>
 
-                <option>Three-Bedroom Apartment - Nyali</option>
+    <label>Check-in Date</label>
+    <input type="date" id="checkin" required>
 
-                <option>Coming Soon - Buxton Apartment</option>
+    <label>Check-out Date</label>
+    <input type="date" id="checkout" required>
 
-            </select>
+    <label>Number of Guests</label>
+    <input type="number" min="1" placeholder="Guests">
 
-            <label>Check-in Date</label>
+    <label>Special Requests</label>
+    <textarea id="message" rows="5" placeholder="Tell us anything you'd like us to know..."></textarea>
 
-            <input type="date" required>
+    <button type="submit" class="btn">
+        Submit Booking Request
+    </button>
 
-            <label>Check-out Date</label>
+    <button type="button" id="clearBooking" class="btn" style="margin-top:15px;">
+        Clear Saved Booking
+    </button>
 
-            <input type="date" required>
-
-            <label>Number of Guests</label>
-
-            <input type="number" min="1" placeholder="Guests">
-
-            <label>Special Requests</label>
-
-            <textarea rows="5" placeholder="Tell us anything you'd like us to know..."></textarea>
-
-            <button type="submit" class="btn">Submit Booking Request</button>
-
-        </form>
+</form>
 
     </div>
 
