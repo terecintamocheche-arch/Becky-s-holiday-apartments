@@ -786,3 +786,52 @@ font-size:35px;
 }
 
 }
+/* ===========================
+   APARTMENTS HERO
+=========================== */
+
+.apartments-hero{
+    height:70vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("images/balcony view.jpeg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-overlay{
+    max-width:800px;
+    padding:20px;
+}
+
+.hero-overlay h2{
+    font-family:'Great Vibes', cursive;
+    font-size:70px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.hero-overlay p{
+    font-size:22px;
+    color:white;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.hero-overlay .btn{
+    background:#6b8f71;
+    color:white;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.hero-overlay .btn:hover{
+    background:#4f6f52;
+}
