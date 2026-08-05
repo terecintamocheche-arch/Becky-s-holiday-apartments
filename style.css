@@ -29,13 +29,17 @@ header{
     position:sticky;
     top:0;
     z-index:1000;
-    box-shadow:0 5px 15px rgba(0,0,0,.15)
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    gap:20px;
+
 }
 
 header h1{
     font-size: 48px;
     font-family:'Great Vibes', cursive;
     color:#ffffff;
+    text-align:center;
+    line-height:1.2;
 }
 
 nav a{
@@ -44,6 +48,10 @@ nav a{
     margin-left:25px;
     font-weight:bold;
     transition:.3s;
+    padding:12px 20px;
+    font-size:16px;
+    border-radius:30px;
+    white-space:nowrap;
 }
 
 nav a:hover{
@@ -191,9 +199,6 @@ footer{
     line-height:1.8;
     margin-bottom:20px;
 }
-/* ==================================== */
-/* COMING SOON SECTION */
-/* ==================================== */
 
 .coming-soon{
 
@@ -912,12 +917,13 @@ font-size:35px;
 .card h3{
     color:#4f6f52;
     margin-bottom:15px;
-    font-size:22px;
+    font-size:24px;
+
 }
 
 .card p{
     color:#666;
-    line-height:1.8;
+    line-height:1.7;
 }
 
 .cta{
